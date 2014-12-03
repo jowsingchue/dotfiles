@@ -23,6 +23,7 @@ Plugin 'godlygeek/tabular'
 Plugin 'plasticboy/vim-markdown'
 Plugin 'davidhalter/jedi-vim'
 Plugin 'ervandew/supertab'
+Plugin 'bling/vim-airline'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -126,17 +127,11 @@ autocmd! bufwritepost .vimrc source %
 set pastetoggle=<F2>
 set clipboard=unnamed
 
-" Enable Powerline plugin
-python from powerline.vim import setup as powerline_setup
-python powerline_setup()
-python del powerline_setup
-" Settings for Powerline plugin
-let g:Powerline_symbols = 'fancy'
-set laststatus=2    " Always show the statusline
-set encoding=utf-8  " Neccessary to show Unicode glyphs
-set noshowmode      " Hide the default mode text (e.g. -- INSERT -- below the statusline)
-" Fix Powerline's escape delay
-imap <esc> <esc><esc>
+" air-line
+set laststatus=2
+"let g:airline_theme='tomorrow'
+let g:airline_theme='powerlineish'
+let g:airline_powerline_fonts = 1
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " COMMAND ALIASING
