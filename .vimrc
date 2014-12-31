@@ -141,6 +141,9 @@ command! H let @/=""
 " KEY MAPPING
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
+" Redo button
+map <F2> :redo<cr>
+
 " Disable arrow key
 map <up> <nop>
 map <down> <nop>
