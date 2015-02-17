@@ -22,6 +22,7 @@ alias htdocs="cd /Applications/XAMPP/xamppfiles/htdocs"
 
 # Go to AMPPS www directory
 alias www="cd /Applications/AMPPS/www && echo 'cd /Applications/AMPPS/www'"
+alias code="cd /Users/jowsingchue/Data/working/code && echo 'cd /Users/jowsingchue/Data/working/code'"
 
 # DevDoc
 alias devdoc-run="cd ~/Code/devdocs/ && rackup"
@@ -36,6 +37,9 @@ alias devdoc-update="cd ~/Code/devdocs/ && git pull origin master && thor docs:d
 # others at ~/bin
 export PATH="/Users/jowsingchue/bin:$PATH"
 
+# composer
+export PATH="~/.composer/vendor/bin/:$PATH"
+
 # AMPPS php
 # export AMPPS_PHP=/Applications/AMPPS/php-5.4/bin
 # export PATH="$AMPPS_PHP:$PATH"
@@ -43,5 +47,7 @@ export PATH="/Users/jowsingchue/bin:$PATH"
 
 #source '/Users/jowsingchue/google-cloud-sdk/completion.bash.inc'
 
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+
+export NVM_DIR="/Users/jowsingchue/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
