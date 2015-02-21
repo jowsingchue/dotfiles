@@ -34,11 +34,8 @@ alias devdoc-update="cd ~/Code/devdocs/ && git pull origin master && thor docs:d
 ##### Path #####
 ###############################################################################
 
-# others at ~/bin
-export PATH="/Users/jowsingchue/bin:$PATH"
-
 # composer
-export PATH="~/.composer/vendor/bin/:$PATH"
+export PATH="~/.composer/vendor/bin:$PATH"
 
 # AMPPS php
 # export AMPPS_PHP=/Applications/AMPPS/php-5.4/bin
