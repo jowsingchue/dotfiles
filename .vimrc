@@ -141,8 +141,8 @@ command! H let @/=""
 " KEY MAPPING
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-" Redo button
-map <F2> :redo<cr>
+" Redo
+map <c-r> :redo<cr>
 
 " Disable arrow key
 map <up> <nop>
@@ -210,14 +210,14 @@ vnoremap < <gv  " better indentation
 vnoremap > >gv  " better indentation
 
 " Familiar commands for file/symbol browsing
-map <D-p> :CtrlP<cr>
-map <C-r> :CtrlPBufTag<cr>
+" map <D-p> :CtrlP<cr>
+" map <C-r> :CtrlPBufTag<cr>
 
 " Laravel framework commons
-nmap <Leader>lr :e app/routes.php<cr>
-nmap <Leader>lca :e app/config/app.php<cr>81Gf(%0
-nmap <Leader>lcd :e app/config/database.php<cr>
-nmap <Leader>lc :e composer.json<cr>
+" nmap <Leader>lr :e app/routes.php<cr>
+" nmap <Leader>lca :e app/config/app.php<cr>81Gf(%0
+" nmap <Leader>lcd :e app/config/database.php<cr>
+" nmap <Leader>lc :e composer.json<cr>
 
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
