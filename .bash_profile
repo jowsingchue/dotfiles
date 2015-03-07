@@ -1,10 +1,6 @@
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
-# hide computer-name and username, show only current dir
-#export PS1="\r\n\[\e[1;33m\]\w \[\e[0;37m\] "
-# hide everything but dollar sign
-export PS1="\r----------------------------------------------\n\[\e[1;33m\]$\[\e[0;37m\] "
-
+PS1="\n\e[0;36m\]\u\e[0;37m\]@\e[0;34m\]\h \e[1;32m\]\w\n\[\e[0;37m\]$ "
 
 
 ###############################################################################
@@ -27,7 +23,6 @@ alias code="cd /Users/jowsingchue/Data/working/code && echo 'cd /Users/jowsingch
 # DevDoc
 alias devdoc-run="cd ~/Code/devdocs/ && rackup"
 alias devdoc-update="cd ~/Code/devdocs/ && git pull origin master && thor docs:download --all"
-
 
 
 ###############################################################################
