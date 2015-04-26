@@ -13,6 +13,7 @@ set directory=~/.vim/swap//
 set hidden
 set history=1000
 set number
+set wildmode=longest,list
 syntax on
 
 " allow backspacing over everything in insert mode
