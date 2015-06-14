@@ -89,3 +89,6 @@ set sidescroll=1
 vmap u <nop>
 vmap U <nop>
 
+" highlight characters on the line that exceed 80 column length
+highlight OverLength ctermbg=red ctermfg=white guibg=#592929
+match OverLength /\%81v.\+/
