@@ -1,0 +1,18 @@
+#
+# Usage: add the following line into ~/.bashrc
+#
+#       source /path/to/this/file
+#
+
+# make bash terminal wrap text
+LESS=-FRX; export LESS
+
+# use bash completion, if available
+[[ $PS1 && -f /etc/bash_completion ]] && . /etc/bash_completion
+
+# show calendar on terminal startup
+cal
+
+# customize prompt
+export PROMPT_COMMAND='echo -e "\n\033[01;30m[`/bin/date +"%F %T"`] ${USER}@${HOSTNAME}\n\033[01;32m`pwd`/ \033[00m"'
+export PS1='$ '
