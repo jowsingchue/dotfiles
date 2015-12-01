@@ -16,3 +16,7 @@ cal
 # customize prompt
 export PROMPT_COMMAND='echo -e "\n\033[01;30m[`/bin/date +"%F %T"`] ${USER}@${HOSTNAME}\n\033[01;32m`pwd`/ \033[00m"'
 export PS1='$ '
+
+# python local path installed via: 
+#   pip install --user [packages]
+export PYTHONPATH=$PYTHONPATH:~/.local/lib/python2.7/site-packages/
