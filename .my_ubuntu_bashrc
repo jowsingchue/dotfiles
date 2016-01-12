@@ -19,7 +19,7 @@ export PROMPT_COMMAND='echo -e "\n\033[01;30m[`/bin/date +"%F %T"`] ${USER}@${HO
 export PS1='$ '
 
 # =============================
-# python local path installed via: 
+# python local path installed via:
 #   pip install --user [packages]
 export PYTHONPATH=$PYTHONPATH:~/.local/lib/python2.7/site-packages/
 
