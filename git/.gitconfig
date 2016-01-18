@@ -4,7 +4,11 @@
 #    [include]
 #      path = /path/to/this/file
 #
-
+[user]
+	name = wootsaejao
+	email = wootsaejao@gmail.com
+[push]
+	default = simple
 [difftool]
   prompt = false
 [color]
