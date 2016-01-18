@@ -1,8 +1,10 @@
-[user]
-  email = wootsaejao@gmail.com
-  name = wootsaejao
-[diff]
-  tool = meld
+#
+#  Usage: add the following to ~/.gitconfig
+#
+#    [include]
+#      path = /path/to/this/file
+#
+
 [difftool]
   prompt = false
 [color]
@@ -15,4 +17,4 @@
   lg = !"git lg1"
   df = !"git difftool --dir-diff"
 [core]
-  editor = vim -f
+  editor = vi -f

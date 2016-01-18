@@ -1,2 +1,8 @@
+#
+#  Usage: add the following to ~/.inputrc
+#
+#    $include /Users/jowsingchue/work/dotfiles/.inputrc
+#
+
 $include /etc/inputrc
 set completion-ignore-case On
