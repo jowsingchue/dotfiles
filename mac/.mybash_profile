@@ -5,7 +5,7 @@
 #
 
 # show calendar on terminal startup
-cal
+cal | grep -w -A4 -B6 --color $(date +%d)
 
 # customize prompt
 export PROMPT_COMMAND='echo -e "\n\033[01;30m[`/bin/date +"%F %T"`] ${USER}@${HOSTNAME}\n\033[01;32m`pwd`/ \033[00m"'
