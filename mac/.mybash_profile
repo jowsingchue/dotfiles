@@ -15,3 +15,7 @@ export PS1='$ '
 if [ -f `brew --prefix`/etc/bash_completion ]; then
     . `brew --prefix`/etc/bash_completion
 fi
+
+# aliases
+alias start_docker="bash --login \
+  '/Applications/Docker/Docker Quickstart Terminal.app/Contents/Resources/Scripts/start.sh'"
