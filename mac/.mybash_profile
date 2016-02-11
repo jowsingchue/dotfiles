@@ -33,6 +33,16 @@ alias gs="git status"
 alias gd="git diff"
 alias gg="git lg"
 
+gitloop() {
+  for dir in $(ls -d */); do
+    echo;
+    echo '========' $dir;
+    cd $dir;
+    git $1;
+    cd ..;
+  done;
+}
+
 #
 # etc.
 #
