@@ -22,3 +22,10 @@
   df = !"git difftool --dir-diff"
 [core]
   editor = vi -f
+
+[credential]
+# # for Windows
+# 	helper = wincred
+#
+# # for Mac
+#   helper = osxkeychain
