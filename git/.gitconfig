@@ -24,7 +24,7 @@
   editor = vi -f
   filemode = false  # http://stackoverflow.com/questions/1257592
 
-[credential]
+# [credential]
 # # for Windows
 #   helper = wincred
 #
@@ -32,4 +32,5 @@
 #   helper = osxkeychain
 #
 # # for Linux
-#   helper = cache
+#   helper = cache # store in memory
+#   helper = store # store in file ~/.git-credential
