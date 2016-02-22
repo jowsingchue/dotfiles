@@ -5,10 +5,10 @@
 #      path = /path/to/this/file
 #
 [user]
-	name = wootsaejao
-	email = wootsaejao@gmail.com
+  name = wootsaejao
+  email = wootsaejao@gmail.com
 [push]
-	default = simple
+  default = simple
 [difftool]
   prompt = false
 [color]
@@ -22,11 +22,14 @@
   df = !"git difftool --dir-diff"
 [core]
   editor = vi -f
-	filemode = false  # http://stackoverflow.com/questions/1257592
+  filemode = false  # http://stackoverflow.com/questions/1257592
 
 [credential]
 # # for Windows
-# 	helper = wincred
+#   helper = wincred
 #
 # # for Mac
 #   helper = osxkeychain
+#
+# # for Linux
+#   helper = cache
