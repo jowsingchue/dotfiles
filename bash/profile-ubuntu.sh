@@ -18,6 +18,9 @@ export PS1='$ '
 # use bash completion, if available
 [[ $PS1 && -f /etc/bash_completion ]] && . /etc/bash_completion
 
+# prevent creation of *.pyc
+PYTHONDONTWRITEBYTECODE=1
+
 
 # # =============================
 # # python local path installed via:
