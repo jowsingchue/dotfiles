@@ -5,8 +5,8 @@
 #
 
 
-# # make bash terminal wrap text
-# LESS=-FRX; export LESS
+# make bash terminal wrap text
+LESS=-FRX; export LESS
 
 # show calendar on terminal startup
 cal
