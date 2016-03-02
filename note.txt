@@ -10,3 +10,15 @@ rsync -aP --exclude=node_modules --delete path/to/src/ path/to/dest
 ### from backup hdd to windows
 
 rsync -aP --no-o --no-g --chmod=ugo=rwX --exclude=node_modules --delete path/to/src/ path/to/dest
+
+
+
+## tar
+
+### archive
+
+tar -zcvf <archive.tar.gz> directory # --exclude=<directory|file>
+
+### extract
+
+tar -zxvf </path/to/archive.tar.gz> # --directory </target/dir>
