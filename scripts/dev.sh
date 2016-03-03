@@ -8,10 +8,7 @@
 
 gnome-terminal --maximize \
         --window \
-            -t 'docker' \
-                --working-directory=/home/jowsingchue/personal/playground/ \
-                -e "/bin/bash -c 'echo $PASSWORD | sudo -S docker start smartsense-mongo; exec /bin/bash -i'" \
-            --tab -t 'gohan-server' \
+            -t 'gohan-server' \
                 --working-directory=/home/jowsingchue/personal/work/gohan-odoo/ \
                 -e "/bin/bash -c './start-server.sh; exec /bin/bash -i'" \
             --tab -t 'wutichai-server' \
