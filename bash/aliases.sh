@@ -14,6 +14,7 @@ alias start_docker="bash --login \
 alias dip="docker-machine ip default"
 alias dp="docker ps"
 alias di="docker images"
+alias d_stop_all="docker ps -q | xargs docker stop"
 
 # git
 alias gs="git status"

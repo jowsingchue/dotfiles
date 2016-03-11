@@ -22,7 +22,7 @@
   df = !"git difftool --dir-diff"
 [core]
   editor = vi -f
-  filemode = false  # http://stackoverflow.com/questions/1257592
+#  filemode = false  # http://stackoverflow.com/questions/1257592
 
 # [credential]
 # # for Windows
