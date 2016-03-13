@@ -4,6 +4,8 @@
 #    source /path/to/this/file
 #
 
+# 256 color
+[ -z "$TMUX" ] && export TERM=xterm-256color
 
 # make bash terminal wrap text
 LESS=-FRX; export LESS
