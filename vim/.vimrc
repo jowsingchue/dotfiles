@@ -20,13 +20,14 @@ syntax on
 set backspace=indent,eol,start
 
 " Show special key
-set list
-set listchars=tab:\|\ ,trail:•
-hi SpecialKey ctermfg=DarkGrey guifg=#5A5A5A
+"set list
+"set listchars=tab:\|\ ,trail:•
+"hi SpecialKey ctermfg=DarkGrey guifg=#5A5A5A
 
-" Use tab character, 4 spaces width
+" Use tab 4 spaces width
 filetype plugin indent on
 set tabstop=4
+"set noexpandtab
 set noexpandtab
 set softtabstop=0
 set shiftwidth=4
@@ -90,5 +91,5 @@ vmap u <nop>
 vmap U <nop>
 
 " highlight characters on the line that exceed 80 column length
-highlight OverLength ctermbg=red ctermfg=white guibg=#592929
-match OverLength /\%81v.\+/
+"highlight OverLength ctermbg=red ctermfg=white guibg=#592929
+"match OverLength /\%81v.\+/
