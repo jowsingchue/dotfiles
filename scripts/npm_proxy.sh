@@ -1,3 +1,3 @@
 #!/bin/bash
 
-npm-proxy-cache -h 172.17.0.1 -e -t 600000
+npm-proxy-cache -h 0.0.0.0 -e -t 600000
