@@ -1,7 +1,7 @@
 #
 #  Usage: add the following to ~/.inputrc
 #
-#    $include /Users/jowsingchue/work/dotfiles/.inputrc
+#    $include /path/to/this/file
 #
 
 $include /etc/inputrc
