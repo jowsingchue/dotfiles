@@ -41,3 +41,10 @@ alias sv='source .venv/bin/activate; export PS1="(${PWD##*/}-venv)$_OLD_VIRTUAL_
 
 # chromium-browser
 alias tmp_chromium="chromium-browser --temp-profile &> /dev/null & disown"
+
+# npm proxy
+npm_proxy_env() {
+  export NPM_CONFIG_PROXY=http://$1:8099
+  export NPM_CONFIG_HTTPS_PROXY=http://$1:8099
+  export NPM_CONFIG_STRICT_SSL=false
+}
