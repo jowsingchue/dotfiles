@@ -48,3 +48,8 @@ npm_proxy_env() {
   export NPM_CONFIG_HTTPS_PROXY=http://$1:8099
   export NPM_CONFIG_STRICT_SSL=false
 }
+
+# npm registry
+npm_registry_env() {
+  export NPM_CONFIG_REGISTRY=http://$1:8080
+}
