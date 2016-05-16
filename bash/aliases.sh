@@ -51,5 +51,5 @@ npm_proxy_env() {
 
 # npm registry
 npm_registry_env() {
-  export NPM_CONFIG_REGISTRY=http://$1:8080
+  export NPM_CONFIG_REGISTRY=http://$1:8098
 }
