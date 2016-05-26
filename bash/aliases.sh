@@ -53,3 +53,8 @@ npm_proxy_env() {
 npm_registry_env() {
   export NPM_CONFIG_REGISTRY=http://$1:8098
 }
+
+terminal_title() {
+  TITLE=$1
+  PROMPT_COMMAND='echo -ne "\033]0;$TITLE\007"'
+}
