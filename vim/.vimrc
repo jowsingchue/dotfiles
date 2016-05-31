@@ -28,7 +28,7 @@ set backspace=indent,eol,start
 filetype plugin indent on
 set tabstop=4
 "set noexpandtab
-set noexpandtab
+set expandtab
 set softtabstop=0
 set shiftwidth=4
 
