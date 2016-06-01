@@ -1,0 +1,11 @@
+
+echo "
+[include]
+#path = /path/to/gitconfig.git  # windows
+#path = $(pwd)/gitconfig.git    # linux, mac
+
+[credential]
+#helper = wincred      # windows
+#helper = osxkeychain  # mac
+#helper = store        # linux
+" > ~/.gitconfig
