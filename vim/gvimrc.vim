@@ -5,7 +5,7 @@
 
 set background=dark
 "set guifont=Inconsolata-dz:h14
-set guifont=Inconsolata-dz\ Medium\ 11
+set guifont=Inconsolata-dz\ Medium\ 10
 set showtabline=2
 set linespace=5
 
