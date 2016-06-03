@@ -15,6 +15,7 @@ alias dip="docker-machine ip default"
 alias dp="docker ps"
 alias di="docker images"
 alias d_stop_all="docker ps -q | xargs docker stop"
+alias de="eval $(docker-machine env)"
 
 # git
 alias gs="git status"
