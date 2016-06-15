@@ -29,7 +29,7 @@ df = !"git difftool --dir-diff"
 
 [core]
 editor = vi -f
-autocrlf = false
+autocrlf = input
 #filemode = false  # http://stackoverflow.com/questions/1257592
 
 #[credential]
