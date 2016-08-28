@@ -1,0 +1,14 @@
+
+export PATH=$HOME/bin:/usr/local/bin:$PATH
+
+zstyle ':completion:*' special-dirs true  # tab completion for ./ and ../ directory
+setopt no_auto_menu  # disable cycling tab completion
+
+## NVM
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" # This loads nvm
+
+PROMPT='
+[`/bin/date +"%F %T"`] $fg[blue]%n $fg[red]@ $fg[yellow]%m
+$fg[green]${PWD/$HOME/~}
+$reset_color$ '
