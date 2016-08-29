@@ -11,4 +11,4 @@ export NVM_DIR="$HOME/.nvm"
 PROMPT='
 [`/bin/date +"%F %T"`] $fg[blue]%n $fg[red]@ $fg[yellow]%m
 $fg[green]${PWD/$HOME/~}
-$reset_color$ '
+%{$reset_color%}$ '
