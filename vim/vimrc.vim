@@ -12,8 +12,8 @@ set nocompatible
 filetype plugin indent on
 colorscheme desert
 set encoding=utf8
-set backupdir=~/.vim/backup//
-set directory=~/.vim/swap//
+set backupdir=/tmp
+set directory=/tmp
 set hidden
 set history=1000
 set number
